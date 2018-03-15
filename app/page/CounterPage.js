@@ -9,7 +9,7 @@ export default counterHOC(props => {
     return (
         <Void>
             <Counter { ...props } />
-            <CounterPercent percent={ percent } />
+            <CounterPercent counter={ props.counter } />
         </Void>
     )
 });

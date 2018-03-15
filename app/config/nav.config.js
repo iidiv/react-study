@@ -8,5 +8,8 @@ export default [
     }, {
         name: '计数器',
         href: '/counter'
+    }, {
+        name: 'Olami',
+        href: '/olami'
     }
 ];

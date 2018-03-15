@@ -6,6 +6,7 @@ import NavBar from './componentUI/common/NavBar';
 import HomePage from './page/HomePage';
 import ToDoApp from './page/ToDoPage';
 import CounterPage from './page/CounterPage';
+import OlamiPage from './page/OlamiPage';
 
 const PrimaryLayout = ({ match }) => (
     <div className="idiv-app">
@@ -14,6 +15,7 @@ const PrimaryLayout = ({ match }) => (
             <Route path="/" exact component={ HomePage } />
             <Route path="/todo" component={ ToDoApp } />
             <Route path="/counter" component={ CounterPage } />
+            <Route path="/olami" component={ OlamiPage } />
             <Redirect to="/"/>
         </Switch>
     </div>
